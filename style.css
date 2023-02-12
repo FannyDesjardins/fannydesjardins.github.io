@@ -167,10 +167,13 @@
 .about h2{
   color: #F4F5FF;
 }
+.gutteraboutsubbox {
+  flex-shrink: 2;
+  width: 120px;
+}
 
 .about-content-box {
-  margin-right:120px;
-  margin-left:120px;
+
 }
 
 /*MAIN*/
