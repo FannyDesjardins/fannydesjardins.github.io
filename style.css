@@ -168,6 +168,11 @@
   color: #F4F5FF;
 }
 
+.about-content-box {
+  margin-right:120px;
+  margin-left:120px;
+}
+
 /*MAIN*/
   main {
     flex: 1;
