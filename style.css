@@ -140,7 +140,7 @@
     border: 1px solid #66A5D9;
     border-radius: 25px;
     background-color: #66A5D9;
-    box-shadow: 0 5px 5px 0 rgb(233 240 243 / 50%), 0 0 0 1px #e6ecf8;
+    box-shadow: 0 5px 5px 0 rgb(233 240 243 / 50%), 0 0 0 1px #263d6c;
     display: block;
     margin-left:30px;
     margin-right:30px;
@@ -169,11 +169,8 @@
 }
 .gutteraboutsubbox {
   flex-shrink: 2;
+  flex-grow:1;
   width: 120px;
-}
-
-.about-content-box {
-
 }
 
 /*MAIN*/
