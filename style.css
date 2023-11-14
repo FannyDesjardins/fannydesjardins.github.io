@@ -119,6 +119,14 @@
     content: url("githubdarkblue.png");
   }
 
+  #itch {
+    content: url("itchioblue.png");
+  }
+
+  #itch:hover {
+    content: url("itchiodarkblue.png");
+  }
+
   #linkedin {
     content: url("linkedinblue.png");
   }
@@ -134,6 +142,8 @@
   #resume:hover {
     content: url("resumedarkblue.png");
   }
+
+  
 
 /*ABOUT*/
 .aboutbox {
