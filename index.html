@@ -13,6 +13,7 @@
           <ul>
           <li><a href="#about">About</a></li>
           <li><a href="#projects">Projects</a></li>
+            <li><a href="#contact">Contact</a></li>
         </ul>
       </nav>
       
@@ -27,7 +28,7 @@
                 <a href="https://github.com/fannydesjardins"  class="snslinks" id="github" title="GitHub Profile" target="_blank" rel="noopener noreferrer"> </a>
                 <a href="https://fannydesjardins.itch.io/" class="snslinks" id="itch" title="itch.io profile" target="_blank" rel="noopener noreferrer"></a>
                 <a href="https://linkedin.com/in/fannydesjardins" class="snslinks" id="linkedin" title="Linkedin Profile" target="_blank" rel="noopener noreferrer"> </a>
-                <a href="CV_FannyDesjardins_EN_3_13.pdf" class="snslinks" id="resume" title="Download Resume" download></a>
+                <a href="#contact" class="snslinks" id="contact" title="Contact Me"></a>
             </div>
         </div>
         <img src="profilepic.png" alt="Logo" id="logo">
@@ -40,8 +41,8 @@
             <div class="aboutsubbox">
               <div class="gutteraboutsubbox"> </div>
               <div>
-                <h3 class="about-content-box">Please take your time looking at my projects. As game developer, I hope it gives you an idea of my strengths and capabilities.</h3>
-                <p>With two Master’s degrees in Mathematics and Computer Science, I have a passion for video game development, particularly in Gameplay, AI, and Physics. I have worked on projects in C++ and Unreal Engine 5 (UE5), constantly pushing myself to refine my skills and expand my expertise.</p>
+                <h3 class="about-content-box">Take your time looking at my projects. As game developer, I hope it gives you an idea of my strengths and capabilities.</h3>
+                <p>With two Master’s degrees in Mathematics and Computer Science, I have a passion for video game development, particularly in Gameplay, AI, and Physics. I have worked on projects in C++ and C# in Unreal Engine 5 and Unity 6, constantly pushing myself to refine my skills and expand my expertise.</p>
               </div>
               <div class="gutteraboutsubbox"> </div>
             </div>
@@ -52,7 +53,14 @@
       <section id="projects">
         <h2>My Projects</h2>
         <div class="projects">
-
+            <div class="coming-soon">
+                <img src="coming-soon.png" class="image">
+                <div class="project-name">
+                    <h2>Sandwich Rush VR</h2>
+                    <h3>Unity 6</h3>
+                    <h3>C#</h3>
+                </div>
+            </div>
             <div class="coming-soon">
                 <img src="coming-soon.png" class="image">
                 <div class="project-name">
@@ -140,7 +148,6 @@
                 </div>
             </div>
 
-
             <div class="container">
                 <img src="Minesweeper_GitProfilePic.png" class="image">
                 <div class="project-name">
@@ -180,7 +187,34 @@
 
         </div>
       </section>
+      
+  <section id="contact" class="contact-section">
+    <h2>Contact Me</h2>
 
+    <form
+        action="https://formspree.io/f/mvzlbwvg"
+        method="POST">
+
+        <input
+            type="text"
+            name="name"
+            placeholder="Your name"
+            required>
+
+        <input
+            type="email"
+            name="email"
+            placeholder="Your email"
+            required>
+
+        <textarea
+            name="message"
+            placeholder="Your message"
+            rows="4"></textarea>
+
+        <button type="submit">Send</button>
+    </form>
+</section>
       
     </main>
     <footer>
